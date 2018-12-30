@@ -1,3 +1,9 @@
+## Tyrolian Computational Hydrodynamics -- tycho_GUI
+
+![Tycho](https://github.com/kapferer/tycho_cfd/blob/master/tycho_logo.jpg "Tycho Logo")
+
+http://tycho-cfd.at/
+
 Welcome to tychoGUI, which is designed to make interaction with TYCHO easier. It is written in C++ with the Qt framework.
 You can download tychoGUI here.
 
