@@ -7,6 +7,8 @@ http://tycho-cfd.at/
 Welcome to tychoGUI, which is designed to make interaction with TYCHO easier. It is written in C++ with the Qt framework.
 You can download tychoGUI here.
 
+![TychoGUI](https://github.com/kapferer/tycho_GUI/blob/master/tycho_gui.jpg "tycho_GUI")
+
 To compile the sources you need a C++ compiler (e.g. http://gcc.gnu.org/) and the QT library including the qt-devel packages. Note that QT is available under the open source LGPL version 2.1 license, from the release of Qt 4.5 onward (read more).
 
 The mandatory two steps for building the tychoGUI are:
