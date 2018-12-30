@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help8</class>
+ <widget class="QDialog" name="help8">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Obstacle-Windemitters and Markerfield</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>tycho_logo_klein.png</normaloff>tycho_logo_klein.png</iconset>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;Sound-emitter section &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;When the sound-emitter section is enabled, one has to load a sound-emitter initial-condition file, i.e. a file marking the region of sound-emission.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;The file can be generated with &lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;tychoBCGEN&lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt; (Tycho's initial condition generator 2D) or &lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;tychoBCG3D&lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt; (Tycho's initial condition generator in 3D). The file has the same organization as a TYCHO boundary condition file. The marked region emits sound waves or one pulse. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;You have to assign to the sound-source a sound-pressure level [dB]. If you want the sound-source to be a harmonic oscillator, you have to give a frequency. In this case TYCHO recalculates the extend in such a way, that one complete oscillation is covered by 100 cells, otherwise the solver would give wrong results.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;If you would like to overcome this limitation, you can choose just one puls. In this case only a single sound-pressure disturbance is emitted with the given sound-pressure level.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;sound-reflexion&lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt; coefficient describes the reflexion behavior of obstacles (0 - no, 1 total reflexion linear scale). As obstacles (e.g. walls) can transmit sound, one can give an &lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;absorption coefficient&lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt; in [dB].&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:10pt;&quot;&gt;TYCHO will calculate dB-maps in the sound-emitter mode.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>310</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

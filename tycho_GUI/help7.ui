@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help7</class>
+ <widget class="QDialog" name="help7">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Obstacle-Windemitters and Markerfield</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>tycho_logo_klein.png</normaloff>tycho_logo_klein.png</iconset>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;If you want to include a &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;wind&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; as defined in the &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;wind-marker file,&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; see documentation for this feature you have to set the wind-emitter section on. The difference to the inflow boundaries is the possibility to include a windsource at the position you want in the  computational domain. If switched on you can choose the &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;windspeed&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;emitted&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;at the location of the wind-emitter&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;If you want to include &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;obstacles&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; you need to hit the radiobutton-on in this section. If you set this parameter with the&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt; Read only obstacle &lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;parameter at the &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;initial conditions section&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;, only an obstacle distribution file will be read in by TYCHO. The gas will be set up as defined in function &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;make ic&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;. If you let &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;TYCHO generate all the initial conditions&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;, you have to edit the function &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;initiate_domain&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;. In all cases the obstacles density, temperature and thermal difussion coefficient have to be set. The thermal diffusion is only calculated, if the thermal diffusion coefficient is set unequal zero. The specific-heat capacity of the obstacle is needed for the thermal exchange at the obstacles' boundaries.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;The marker-field  is density field, which will be advected with the hydro velocities. It is meant to help to investigate the flow of gas. If you want a marker-field you have to set one up as described in the documentation.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;To provide the user with a simple starting point for one's own simulations, two OCTAVE scripts are provided to set up 2D initial conditions for TYCHO. The scripts are meant to generate initial obstacle and marker-field distributions for TYCHO 2D simulation. The scripts &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;domain_composer.m&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;marker_composer.m&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; located in the tools directory can be used with the freely obtainable &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;OCTAVE&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;. GNU OCTAVE is a high-level interpreted language, primarily intended for numerical computations and can be obtained at &lt;/span&gt;&lt;a href=&quot;http://www.gnu.org/software/octave/&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.gnu.org/software/octave/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;If you want to generate 2D-ICs from pixel images use tychoBCGEN, which provides you a graphical user interface to extract you ICs for TYCHO. You can download it from http://tycho-cfd.at/&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>610</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

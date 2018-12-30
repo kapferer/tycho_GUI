@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>local_simulation</class>
+ <widget class="QDialog" name="local_simulation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Local Simulation</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>tycho_logo_klein.png</normaloff>tycho_logo_klein.png</iconset>
+  </property>
+  <widget class="QPushButton" name="tycho_exe">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TYCHO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="parameterfile">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Parameterfile</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tycho_text">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="parameterfile_text">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="run">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>610</y>
+     <width>86</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>461</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>610</y>
+     <width>86</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>610</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restart">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>650</y>
+     <width>86</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Restart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="savelog">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>610</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save log</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>100</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Help">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>650</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>tycho_exe</tabstop>
+  <tabstop>tycho_text</tabstop>
+  <tabstop>parameterfile</tabstop>
+  <tabstop>parameterfile_text</tabstop>
+  <tabstop>textBrowser</tabstop>
+  <tabstop>run</tabstop>
+  <tabstop>stop</tabstop>
+  <tabstop>restart</tabstop>
+  <tabstop>savelog</tabstop>
+  <tabstop>close</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

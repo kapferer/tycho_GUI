@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>configure_path</class>
+ <widget class="QDialog" name="configure_path">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Configure Path to the TYCHO exectuable.</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>tycho_logo_klein.png</normaloff>tycho_logo_klein.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>301</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Define the standard TYCHO executable</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TYCHO EXECUTABLE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>If you want you can point here to your own TYCHO
+executable. This will be saved then in the
+confg_tycho_gui.ini File.
+ATTENTION MAYBE YOU NEED TO START tychoGUI
+WITH ADMINISTRATOR PRIVILEGE!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

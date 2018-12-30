@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help2</class>
+ <widget class="QDialog" name="help2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Boundary conditions</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>tycho_logo_klein.png</normaloff>tycho_logo_klein.png</iconset>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>481</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TYCHO comes with five different boundary conditions to choose from, namely &lt;span style=&quot; font-weight:600;&quot;&gt;Zero Gradient&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Reflecting&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Small Number Padding&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Outflow&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Inflow&lt;/span&gt; and &lt;span style=&quot; font-weight:600;&quot;&gt;Periodic&lt;/span&gt;. These boundary conditions can be attached separately to all edges of the computational domain. The exact definition of the conditions can be found in the file &lt;span style=&quot; font-weight:600;&quot;&gt;set_boundary.c&lt;/span&gt;. In the case of the &lt;span style=&quot; font-weight:600;&quot;&gt;Small Padding&lt;/span&gt; boundary conditions the density, pressure and total energy is set to small (i.e. 1.0E-50) values in the ghost cells. The other boundary conditions copy density, pressure and total energy in the ghost cells, as defined in &lt;span style=&quot; font-weight:600;&quot;&gt;set_boundary.c&lt;/span&gt; . A special behavior is implemented for the &lt;span style=&quot; font-weight:600;&quot;&gt;Inflow/Outflow&lt;/span&gt; boundary conditions.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;In the first case a constant inflow of gas with a velocity, density and temperature specified in the section &lt;span style=&quot; font-weight:600;&quot;&gt;inflow boundary&lt;/span&gt; is realized and in the second case gas which leaves the computational domain will not enter it again, because backflow of gas is prevented. Note that the inflow boundary properties are only editable in the case one boundary is chosen inflow. The properties are given to all inflow boundaries. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;In the case of &lt;span style=&quot; font-weight:600;&quot;&gt;obstacles&lt;/span&gt; in the computational domain TYCHO will split the calculations into two parts, i.e. boundary at the computational domain and boundary at the obstacles. The &lt;span style=&quot; font-weight:600;&quot;&gt;boundaries at the obstacles are always reflecting&lt;/span&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>540</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
